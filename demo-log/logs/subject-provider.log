@@ -1,20 +1,4 @@
-2018-05-30 18:35:01,874 INFO (StartupInfoLogger.java:50)- Starting DemoLogApplicationTests on LAPTOP-AO54A6DD with PID 1532 (started by bean in B:\work\myTest\demo-log)
-2018-05-30 18:35:02,206 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
-2018-05-30 18:35:02,207 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default
-2018-05-30 18:35:08,978 INFO (StartupInfoLogger.java:59)- Started DemoLogApplicationTests in 8.332 seconds (JVM running for 11.055)
-2018-05-30 18:40:42,076 INFO (StartupInfoLogger.java:50)- Starting DemoLogApplicationTests on LAPTOP-AO54A6DD with PID 11088 (started by bean in B:\work\myTest\demo-log)
-2018-05-30 18:40:42,081 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
-2018-05-30 18:40:42,084 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default
-2018-05-30 18:40:45,775 INFO (StartupInfoLogger.java:59)- Started DemoLogApplicationTests in 4.325 seconds (JVM running for 5.392)
-2018-05-30 18:42:23,445 INFO (StartupInfoLogger.java:50)- Starting DemoLogApplicationTests on LAPTOP-AO54A6DD with PID 3688 (started by bean in B:\work\myTest\demo-log)
-2018-05-30 18:42:23,447 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
-2018-05-30 18:42:23,448 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default
-2018-05-30 18:42:26,552 INFO (StartupInfoLogger.java:59)- Started DemoLogApplicationTests in 3.637 seconds (JVM running for 4.608)
-2018-05-30 18:52:22,652 INFO (StartupInfoLogger.java:50)- Starting DemoLogApplicationTests on LAPTOP-AO54A6DD with PID 13932 (started by bean in B:\work\myTest\demo-log)
-2018-05-30 18:52:22,654 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
-2018-05-30 18:52:22,655 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default
-2018-05-30 18:52:26,105 INFO (StartupInfoLogger.java:59)- Started DemoLogApplicationTests in 4.034 seconds (JVM running for 5.102)
-2018-05-30 19:05:17,163 INFO (StartupInfoLogger.java:50)- Starting DemoLogApplicationTests on LAPTOP-AO54A6DD with PID 2748 (started by bean in B:\work\myTest\demo-log)
-2018-05-30 19:05:17,168 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
-2018-05-30 19:05:17,169 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default
-2018-05-30 19:05:20,438 INFO (StartupInfoLogger.java:59)- Started DemoLogApplicationTests in 3.914 seconds (JVM running for 4.843)
+2018-07-03 13:50:35,082 INFO (StartupInfoLogger.java:50)- Starting DemoLogApplicationTests on LAPTOP-AO54A6DD with PID 17012 (started by bean in B:\work\myTest\myDemos\demo-log)
+2018-07-03 13:50:35,109 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2018-07-03 13:50:35,110 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default
+2018-07-03 13:50:41,963 INFO (StartupInfoLogger.java:59)- Started DemoLogApplicationTests in 7.992 seconds (JVM running for 10.947)

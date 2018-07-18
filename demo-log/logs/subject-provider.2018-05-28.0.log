@@ -1,5 +1,0 @@
-2018-05-28 17:12:57,638 INFO (StartupInfoLogger.java:50)- Starting DemoLogApplication on LAPTOP-AO54A6DD with PID 12784 (B:\work\myTest\demo-log\target\classes started by bean in B:\work\myTest\demo-log)
-2018-05-28 17:12:57,666 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
-2018-05-28 17:12:57,666 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default
-2018-05-28 17:12:58,612 INFO (StartupInfoLogger.java:59)- Started DemoLogApplication in 2.013 seconds (JVM running for 3.253)
-2018-05-28 17:12:58,614 DEBUG (DemoLogApplication.java:16)- 时间 ： Mon May 28 17:12:58 GMT+08:00 2018
