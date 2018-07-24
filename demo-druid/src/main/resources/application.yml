@@ -3,7 +3,9 @@ spring:
     druid: 
       url: jdbc:mysql://localhost:3306/jpa?characterEncoding=utf-8
       username: root
-      password: 1234
+      password: ENC(5dd43843b44dba0fc4800950e9375a0e)
+#      password: ENC(jMdXVqjB+eakDYd0JoEWwA==)
+#      password: 1234
       driver-class-name: com.mysql.jdbc.Driver
 # 下面为连接池的补充设置，应用到上面所有数据源中
       type: com.alibaba.druid.pool.DruidDataSource
@@ -31,3 +33,11 @@ spring:
 # 合并多个DruidDataSource的监控数据
       useGlobalDataSourceStat: true
 #druid datasouce database settings end
+
+#db:
+#  password: 5dd43843b44dba0fc4800950e9375a0e
+jasypt:
+  encryptor:
+#    password: asdfghjkl
+    bean: myTest
+
