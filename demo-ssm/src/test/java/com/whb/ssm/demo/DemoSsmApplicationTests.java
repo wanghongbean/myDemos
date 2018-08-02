@@ -1,4 +1,4 @@
-package com.whb.ssm.demossm;
+package com.whb.ssm.demo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
