@@ -2,6 +2,7 @@
 所有测试用例
 
 # demo.spi
+* SPI 全称为 (Service Provider Interface)
 * 策略模式 解耦
 * 路径 META-INF/services
 ```java
