@@ -8,11 +8,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
+ * @author bean wanghb_prm@si-tech.com.cn
  * @Title Myinterceptor.java
  * @Project demo-web
  * @Description 自定义拦截器
- * @author bean wanghb_prm@si-tech.com.cn
- * @create 2018-07-18 
+ * @create 2018-07-18
  */
 public class Myinterceptor implements HandlerInterceptor {
     @Override

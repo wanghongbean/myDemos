@@ -8,8 +8,8 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
  */
 @Configuration
 @EnableMongoRepositories(basePackages = "com.neo.model.repository.secondary",
-		mongoTemplateRef = SecondaryMongoConfig.MONGO_TEMPLATE)
+        mongoTemplateRef = SecondaryMongoConfig.MONGO_TEMPLATE)
 public class SecondaryMongoConfig {
 
-	protected static final String MONGO_TEMPLATE = "secondaryMongoTemplate";
+    protected static final String MONGO_TEMPLATE = "secondaryMongoTemplate";
 }

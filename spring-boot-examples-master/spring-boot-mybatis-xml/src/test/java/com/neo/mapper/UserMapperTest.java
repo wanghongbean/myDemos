@@ -16,36 +16,36 @@ import com.neo.enums.UserSexEnum;
 @SpringBootTest
 public class UserMapperTest {
 
-	@Autowired
-	private UserMapper UserMapper;
+    @Autowired
+    private UserMapper UserMapper;
 
-	@Test
-	public void testInsert() throws Exception {
-		UserMapper.insert(new UserEntity("aa", "a123456", UserSexEnum.MAN));
-		UserMapper.insert(new UserEntity("bb", "b123456", UserSexEnum.WOMAN));
-		UserMapper.insert(new UserEntity("cc", "b123456", UserSexEnum.WOMAN));
+    @Test
+    public void testInsert() throws Exception {
+        UserMapper.insert(new UserEntity("aa", "a123456", UserSexEnum.MAN));
+        UserMapper.insert(new UserEntity("bb", "b123456", UserSexEnum.WOMAN));
+        UserMapper.insert(new UserEntity("cc", "b123456", UserSexEnum.WOMAN));
 
-		Assert.assertEquals(3, UserMapper.getAll().size());
-	}
+        Assert.assertEquals(3, UserMapper.getAll().size());
+    }
 
-	@Test
-	public void testQuery() throws Exception {
-		List<UserEntity> users = UserMapper.getAll();
-		if(users==null || users.size()==0){
-			System.out.println("is null");
-		}else{
-			System.out.println(users.toString());
-		}
-	}
-	
-	
-	@Test
-	public void testUpdate() throws Exception {
-		UserEntity user = UserMapper.getOne(6l);
-		System.out.println(user.toString());
-		user.setNickName("neo");
-		UserMapper.update(user);
-		Assert.assertTrue(("neo".equals(UserMapper.getOne(6l).getNickName())));
-	}
+    @Test
+    public void testQuery() throws Exception {
+        List<UserEntity> users = UserMapper.getAll();
+        if (users == null || users.size() == 0) {
+            System.out.println("is null");
+        } else {
+            System.out.println(users.toString());
+        }
+    }
+
+
+    @Test
+    public void testUpdate() throws Exception {
+        UserEntity user = UserMapper.getOne(6l);
+        System.out.println(user.toString());
+        user.setNickName("neo");
+        UserMapper.update(user);
+        Assert.assertTrue(("neo".equals(UserMapper.getOne(6l).getNickName())));
+    }
 
 }

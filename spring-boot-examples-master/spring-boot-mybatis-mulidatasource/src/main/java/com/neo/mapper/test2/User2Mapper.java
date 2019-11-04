@@ -5,15 +5,15 @@ import java.util.List;
 import com.neo.entity.UserEntity;
 
 public interface User2Mapper {
-	
-	List<UserEntity> getAll();
-	
-	UserEntity getOne(Long id);
 
-	void insert(UserEntity user);
+    List<UserEntity> getAll();
 
-	void update(UserEntity user);
+    UserEntity getOne(Long id);
 
-	void delete(Long id);
+    void insert(UserEntity user);
+
+    void update(UserEntity user);
+
+    void delete(Long id);
 
 }

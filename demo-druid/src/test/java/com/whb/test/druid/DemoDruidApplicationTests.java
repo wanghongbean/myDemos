@@ -16,22 +16,22 @@ import java.sql.SQLException;
 @SpringBootTest
 public class DemoDruidApplicationTests {
 
-	@Autowired
-	DataSource dataSource;
+    @Autowired
+    DataSource dataSource;
 
-	@Autowired
-	StringEncryptor stringEncryptor;
+    @Autowired
+    StringEncryptor stringEncryptor;
 
-	@Test
-	public void encryptPwd() {
-		String result = stringEncryptor.encrypt("1234");
-		System.out.println(result);
-	}
+    @Test
+    public void encryptPwd() {
+        String result = stringEncryptor.encrypt("1234");
+        System.out.println(result);
+    }
 
-	@Test
-	public void contextLoads() throws SQLException {
-		Connection connection = dataSource.getConnection();
-		System.out.println(dataSource);
-	}
+    @Test
+    public void contextLoads() throws SQLException {
+        Connection connection = dataSource.getConnection();
+        System.out.println(dataSource);
+    }
 
 }

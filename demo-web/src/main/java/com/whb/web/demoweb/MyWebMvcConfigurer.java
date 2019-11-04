@@ -5,11 +5,11 @@ import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 
 /**
+ * @author bean wanghb_prm@si-tech.com.cn
  * @Title MyWebMvcConfigurer.java
  * @Project demo-web
  * @Description 自定义mvc配置
- * @author bean wanghb_prm@si-tech.com.cn
- * @create 2018-07-18 
+ * @create 2018-07-18
  */
 @Configuration
 public class MyWebMvcConfigurer extends WebMvcConfigurationSupport {

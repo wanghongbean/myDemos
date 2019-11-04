@@ -15,14 +15,14 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document(collection = "first_mongo")
 public class PrimaryMongoObject {
 
-	@Id
-	private String id;
+    @Id
+    private String id;
 
-	private String value;
+    private String value;
 
-	@Override
-	public String toString() {
+    @Override
+    public String toString() {
         return "PrimaryMongoObject{" + "id='" + id + '\'' + ", value='" + value + '\''
-				+ '}';
-	}
+                + '}';
+    }
 }

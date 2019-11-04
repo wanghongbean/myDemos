@@ -9,10 +9,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class SingletonDemoApplicationTests {
 
-	@Test
-	public void contextLoads() {
-		SingletonEnum.SINGLETON.m();
-		SingletonClass.getInstance().m();
-	}
+    @Test
+    public void contextLoads() {
+        SingletonEnum.SINGLETON.m();
+        SingletonClass.getInstance().m();
+    }
 
 }

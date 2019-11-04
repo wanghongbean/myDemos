@@ -4,11 +4,11 @@ import javax.persistence.*;
 import java.util.Date;
 
 /**
+ * @author bean wanghb_prm@si-tech.com.cn
  * @Title User.java
  * @Project demo-log
- * @Description 
- * @author bean wanghb_prm@si-tech.com.cn
- * @create 2018-05-30 
+ * @Description
+ * @create 2018-05-30
  */
 @Entity
 @Table(name = "t_user")

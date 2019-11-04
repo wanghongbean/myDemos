@@ -7,18 +7,18 @@ import javax.crypto.spec.SecretKeySpec;
 import java.security.Key;
 
 /**
+ * @author bean wanghb_prm@si-tech.com.cn
  * @Title MyTest.java
  * @Project demo-druid
- * @Description 
- * @author bean wanghb_prm@si-tech.com.cn
- * @create 2018-07-25 
+ * @Description
+ * @create 2018-07-25
  */
 public class MyTest implements StringEncryptor {
 
     private static final String ALGO = "AES";
 
     private static final String DEFAULT_ENCODING = "UTF-8";
-    private static final char[] DIGITS = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f' };
+    private static final char[] DIGITS = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f'};
 
     private static final String DEFAULT_SALT = "__O2O__NO1__";
     private static final String SALT_PREFIX = "@@";

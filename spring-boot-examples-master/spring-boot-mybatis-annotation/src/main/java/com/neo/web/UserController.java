@@ -12,36 +12,36 @@ import com.neo.mapper.UserMapper;
 
 @RestController
 public class UserController {
-	
-	@Autowired
-	private UserMapper userMapper;
-	
-	@RequestMapping("/getUsers")
-	public List<UserEntity> getUsers() {
-		List<UserEntity> users=userMapper.getAll();
-		return users;
-	}
-	
+
+    @Autowired
+    private UserMapper userMapper;
+
+    @RequestMapping("/getUsers")
+    public List<UserEntity> getUsers() {
+        List<UserEntity> users = userMapper.getAll();
+        return users;
+    }
+
     @RequestMapping("/getUser")
     public UserEntity getUser(Long id) {
-    	UserEntity user=userMapper.getOne(id);
+        UserEntity user = userMapper.getOne(id);
         return user;
     }
-    
+
     @RequestMapping("/add")
     public void save(UserEntity user) {
-    	userMapper.insert(user);
+        userMapper.insert(user);
     }
-    
-    @RequestMapping(value="update")
+
+    @RequestMapping(value = "update")
     public void update(UserEntity user) {
-    	userMapper.update(user);
+        userMapper.update(user);
     }
-    
-    @RequestMapping(value="/delete/{id}")
+
+    @RequestMapping(value = "/delete/{id}")
     public void delete(@PathVariable("id") Long id) {
-    	userMapper.delete(id);
+        userMapper.delete(id);
     }
-    
-    
+
+
 }

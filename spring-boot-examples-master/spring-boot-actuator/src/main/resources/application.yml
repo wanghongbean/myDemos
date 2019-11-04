@@ -10,6 +10,6 @@ endpoints:
     enabled: true
 
 info:
-   app:
-      name: spring-boot-actuator
-      version: 1.0.0
+  app:
+    name: spring-boot-actuator
+    version: 1.0.0

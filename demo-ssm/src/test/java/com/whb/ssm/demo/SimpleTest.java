@@ -15,11 +15,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * @author bean wanghb_prm@si-tech.com.cn
  * @Title SimpleTest.java
  * @Project demo-ssm
- * @Description 
- * @author bean wanghb_prm@si-tech.com.cn
- * @create 2018-08-03 
+ * @Description
+ * @create 2018-08-03
  */
 public class SimpleTest {
     @Test

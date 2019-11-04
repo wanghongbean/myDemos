@@ -9,7 +9,8 @@ package com.demo.singletondemo;
  */
 public enum SingletonEnum {
     SINGLETON;
-    public void  m(){
+
+    public void m() {
         System.out.println("enum singleton ");
     }
 }

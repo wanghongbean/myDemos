@@ -9,13 +9,13 @@ import java.util.Date;
 
 @SpringBootApplication
 public class DemoLogApplication {
-	public static final Logger LOGGER= LoggerFactory.getLogger(DemoLogApplication.class);
+    public static final Logger LOGGER = LoggerFactory.getLogger(DemoLogApplication.class);
 
-	public static void main(String[] args) {
-		SpringApplication.run(DemoLogApplication.class, args);
-		while (true){
-			LOGGER.debug("--时间-- ： {}",new Date());
-		}
+    public static void main(String[] args) {
+        SpringApplication.run(DemoLogApplication.class, args);
+        while (true) {
+            LOGGER.debug("--时间-- ： {}", new Date());
+        }
 
-	}
+    }
 }

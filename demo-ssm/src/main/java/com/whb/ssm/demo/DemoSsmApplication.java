@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class DemoSsmApplication {
-	//    @Bean
+    //    @Bean
 //    public SqlSessionFactoryBean sqlSessionFactoryBean() throws Exception {
 //        PathMatchingResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
 //        SqlSessionFactoryBean sqlSessionFactoryBean = new SqlSessionFactoryBean();
@@ -34,7 +34,7 @@ public class DemoSsmApplication {
 //        return configurer;
 //    }
 
-	public static void main(String[] args) {
-		SpringApplication.run(DemoSsmApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(DemoSsmApplication.class, args);
+    }
 }

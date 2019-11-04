@@ -27,6 +27,7 @@ public class ExcelReader {
 
     /**
      * 读取Excel表格表头的内容
+     *
      * @param is
      * @return String 表头内容的数组
      */
@@ -52,6 +53,7 @@ public class ExcelReader {
 
     /**
      * 读取Excel数据内容
+     *
      * @param is
      * @return Map 包含单元格数据内容的Map对象
      */
@@ -124,8 +126,7 @@ public class ExcelReader {
     /**
      * 获取单元格数据内容为日期类型的数据
      *
-     * @param cell
-     *            Excel单元格
+     * @param cell Excel单元格
      * @return String 单元格数据内容
      */
     private String getDateCellValue(HSSFCell cell) {
@@ -151,6 +152,7 @@ public class ExcelReader {
 
     /**
      * 根据HSSFCell类型设置数据
+     *
      * @param cell
      * @return
      */

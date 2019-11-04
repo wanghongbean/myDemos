@@ -25,7 +25,7 @@ public class UserController {
 
     @RequestMapping("/list")
     public String list(Model model) {
-        List<User> users=userService.getUserList();
+        List<User> users = userService.getUserList();
         model.addAttribute("users", users);
         return "user/list";
     }
@@ -42,8 +42,8 @@ public class UserController {
     }
 
     @RequestMapping("/toEdit")
-    public String toEdit(Model model,Long id) {
-        User user=userService.findUserById(id);
+    public String toEdit(Model model, Long id) {
+        User user = userService.findUserById(id);
         model.addAttribute("user", user);
         return "user/userEdit";
     }

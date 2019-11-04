@@ -12,7 +12,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @SpringBootApplication(exclude = MongoAutoConfiguration.class)
 public class Application {
 
-	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(Application.class, args);
+    }
 }

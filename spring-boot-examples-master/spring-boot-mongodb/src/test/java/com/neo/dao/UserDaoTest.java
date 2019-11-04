@@ -19,7 +19,7 @@ public class UserDaoTest {
 
     @Test
     public void testSaveUser() throws Exception {
-        UserEntity user=new UserEntity();
+        UserEntity user = new UserEntity();
         user.setId(2l);
         user.setUserName("小明");
         user.setPassWord("fffooo123");
@@ -27,14 +27,14 @@ public class UserDaoTest {
     }
 
     @Test
-    public void findUserByUserName(){
-       UserEntity user= userDao.findUserByUserName("小明");
-       System.out.println("user is "+user);
+    public void findUserByUserName() {
+        UserEntity user = userDao.findUserByUserName("小明");
+        System.out.println("user is " + user);
     }
 
     @Test
-    public void updateUser(){
-        UserEntity user=new UserEntity();
+    public void updateUser() {
+        UserEntity user = new UserEntity();
         user.setId(2l);
         user.setUserName("天空");
         user.setPassWord("fffxxxx");
@@ -42,7 +42,7 @@ public class UserDaoTest {
     }
 
     @Test
-    public void deleteUserById(){
+    public void deleteUserById() {
         userDao.deleteUserById(1l);
     }
 

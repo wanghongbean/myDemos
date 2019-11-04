@@ -16,10 +16,10 @@ import javax.sql.DataSource;
 public class DemoDruidApplication {
 
 
-	@Bean("myTest")
-	public MyTest myTest(){
-		return new MyTest();
-	}
+    @Bean("myTest")
+    public MyTest myTest() {
+        return new MyTest();
+    }
 
 
 //	@Bean("simplePasswordCallback")
@@ -30,11 +30,11 @@ public class DemoDruidApplication {
 //		return simplePasswordCallback;
 //	}
 
-	@Primary
-	@Bean
-	@ConfigurationProperties("spring.datasource.druid")
-	public DataSource dataSource(){
-		DruidDataSource dataSource = DruidDataSourceBuilder.create().build();
+    @Primary
+    @Bean
+    @ConfigurationProperties("spring.datasource.druid")
+    public DataSource dataSource() {
+        DruidDataSource dataSource = DruidDataSourceBuilder.create().build();
 //		String e = dataSource.getPassword();
 //		simplePasswordCallback().d
 //		try {
@@ -43,10 +43,10 @@ public class DemoDruidApplication {
 //		} catch (Exception e) {
 //			e.printStackTrace();
 //		}
-		return dataSource;
-	}
+        return dataSource;
+    }
 
-	public static void main(String[] args) {
-		SpringApplication.run(DemoDruidApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(DemoDruidApplication.class, args);
+    }
 }

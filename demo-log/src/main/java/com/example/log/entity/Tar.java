@@ -3,11 +3,11 @@ package com.example.log.entity;
 import java.util.Date;
 
 /**
+ * @author bean wanghb_prm@si-tech.com.cn
  * @Title Tar.java
  * @Project demo-log
- * @Description 
- * @author bean wanghb_prm@si-tech.com.cn
- * @create 2018-05-30 
+ * @Description
+ * @create 2018-05-30
  */
 public class Tar {
     private int id;
