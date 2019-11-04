@@ -2,7 +2,7 @@
 所有测试用例
 
 # demo.spi
-* 策略模式 解耦spring
+* 策略模式 解耦
 * 路径 META-INF/services
 ```java
 private static void loadSpi(){
